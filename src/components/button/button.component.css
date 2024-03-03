@@ -1,0 +1,24 @@
+.button {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  font-family: "Poppins";
+  margin-top: 10px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #dddddd;
+}
+.button:active {
+  bottom: -2px;
+}
+.button--purple {
+  background-color: rgb(172, 96, 202);
+  color: white;
+}
+.button--white {
+  background-color: rgb(255, 255, 255);
+  color: rgb(31, 31, 31);
+}/*# sourceMappingURL=button.component.css.map */

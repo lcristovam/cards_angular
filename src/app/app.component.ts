@@ -6,5 +6,25 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'cards_angular';
+
+  ButtonClicked(){
+    console.log('button clicked')
+  }
+  onCardButtonClicked(){
+    console.log('OnCardButtonClicked')
+    //chamada HTTP
+  }
+
+  card1Values = {
+    price: 100,
+    type: 'Simples',
+    style: "orange"
+  }
+
+  card2Values = {
+    price: 200,
+    type: 'Avançado',
+    style: "purple"
+  }
 }
+

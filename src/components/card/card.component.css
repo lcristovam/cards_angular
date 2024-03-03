@@ -1,0 +1,21 @@
+.card {
+  max-width: 350px;
+  border-radius: 25px;
+  padding: 30px;
+}
+.card__item {
+  padding: 10px;
+}
+.card__plan {
+  font-size: 16px;
+}
+.card__price {
+  font-size: 40px;
+  font-weight: 600;
+}
+.card__orange {
+  background-color: #fd7557;
+}
+.card__purple {
+  background-color: #e1d5f3;
+}/*# sourceMappingURL=card.component.css.map */
